@@ -19,3 +19,10 @@ The search engine's performance is evaluated using relevance judgments provided 
  - map=0.4276: Signifies the Mean Average Precision
  - iprec_at_recall_(0.00 to 1.0): Signifies the precision averages for each recall, which has been plotted on the graph for better understanding. From the graph, we can see that the highest precision average is 0.8232 when recall is 0.00 and the lowest precision average is 0.1367 when recall is 1.00.
  - p_(5 to 1000): Signifies the precision after fetching n number of documents retrieved (where n varies from 5 to 1000).
+
+## How to use the Project ##
+
+This project is implemented using the Maven architecture.
+Use the following command in root folder to compile and run the project:
+
+mvn clean install
